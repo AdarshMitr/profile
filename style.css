@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f1f1f1;
@@ -13,6 +13,7 @@ body {
     background-color: rgb(92, 183, 236);
     color: #fff;
    height: 100vh;
+   border-bottom: 1px solid rgb(160, 70, 70);
   }
   
 
@@ -101,40 +102,92 @@ body {
   
   section p {
     margin: 0;
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 1.5;
     padding-left: 20px;
     
   }
   
-  section ul {
-    margin: 0;
-    padding: 10px;
-    list-style: none;
-    text-align: left;
-  }
   
   #about{
     background-color:#F2DEBA;
     
     height: 40vh;
     text-align: center;
+    border-bottom: 1px solid rgb(160, 70, 70);
     
   }
 
   
   #skills{
-    background-color:#FAAB78;
+    background-color:#f5cbad;
     height: 60vh;
+    border-bottom: 1px solid rgb(160, 70, 70);
     
   }
 
   #projects{
     background-color:#D7E9B9;
     height: 100vh;
+    border-bottom: 1px solid rgb(160, 70, 70);
   }
 
   #contact{
     background-color: #ffffff;  
     height: 100vh;
+    text-align: center;
+    
+  }
+
+  #footer{
+    text-align: center;
+    background-color: rgb(199, 199, 185);
+    padding: 10px;
+    font-weight: bold;
+  }
+  #contact h3{
+    color: rgb(0, 102, 255);
+  }
+
+button{
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(27, 72, 114);
+  border-radius: 10px;
+  
+}
+button:hover{
+  background-color: #22a9e7e0;
+}
+
+  button a{
+    
+   text-decoration: none;
+    font-size: 25px;
+    color: rgb(252, 252, 252);
+    
+  }
+
+  .skillContainer{
+    text-align: right;
+  }
+
+  .html{
+    width: 90%;
+    background-color: #f11d2f;
+  }
+
+  .css{
+    width: 80%;
+    background-color: #2f5bb7;
+  }
+
+  .javascript{
+    width: 70%;
+    background-color: #2fb72f;
+  }
+
+  .react{
+    width: 65%;
+    background-color: #df6717;
   }
