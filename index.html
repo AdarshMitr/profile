@@ -9,6 +9,8 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Adarsh Kumar Patel | Frontend Developer">
     <meta property="og:description" content="Adarsh Kumar Patel is a highly skilled Front End Developer with expertise in creating visually stunning websites and user-friendly web applications. He has a keen eye for design and an in-depth understanding of the latest web technologies. Let his experience and knowledge work for you - get in touch today!">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Adarsh Kumar Patel | Frontend Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -16,18 +18,21 @@
 </head>
 
 <body>
-    <header id="home">
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <a href="https://adarshmitr.blogspot.com/">Blog</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+    </nav>
 
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="https://adarshmitr.blogspot.com/">Blog</a></li>
-            </ul>
-        </nav>
+    <header id="home">
         <img id="proimg" src="/IMG/adarsh-kumar-patel.jpg" alt="">
         <h1>Adarsh Kumar Patel</h1>
         <h2>Frontend Developer</h2>
@@ -79,7 +84,7 @@
 
         <section id="footer">&copy; Adarsh Kumar Patel|2022-23</section>
     </main>
-    
+    <script src="script.js"></script>
 </body>
 
 </html>
