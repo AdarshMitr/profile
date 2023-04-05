@@ -1,91 +1,300 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta property="og:site_name" content="Adarsh Kumar Patel" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Adarsh Kumar Patel | Frontend Developer"
+    />
+    <meta
+      property="og:description"
+      content="Adarsh Kumar Patel is a highly skilled Front End Developer with expertise in creating visually stunning websites and user-friendly web applications. He has a keen eye for design and an in-depth understanding of the latest web technologies. Let his experience and knowledge work for you - get in touch today!"
+    />
 
-<head>
-    <meta charSet="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta property="og:site_name" content="Adarsh Kumar Patel">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Adarsh Kumar Patel | Frontend Developer">
-    <meta property="og:description" content="Adarsh Kumar Patel is a highly skilled Front End Developer with expertise in creating visually stunning websites and user-friendly web applications. He has a keen eye for design and an in-depth understanding of the latest web technologies. Let his experience and knowledge work for you - get in touch today!">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Adarsh Kumar Patel | Frontend Developer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-    
-</head>
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adarsh Kumar Patel | FrontEnd Developer</title>
+  </head>
 
-<body>
+  <body>
+    <!-- Navbar -->
     <nav>
-        <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a href="https://adarshmitr.blogspot.com/">Blog</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
+      <h1>ADARSH KUMAR PATEL</h1>
+      <ul class="navigation">
+        <li><a href="#about"class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li>
+          <a href="https://adarshmitr.blogspot.com/" class="nav-link">Blog</a>
+        </li>
+
+        <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()"> -->
+        <!-- <i class="fa fa-bars"></i> -->
+        <!-- </a> -->
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
     </nav>
 
-    <header id="home">
-        <img id="proimg" src="/IMG/adarsh-kumar-patel.jpg" alt="">
-        <h1>Adarsh Kumar Patel</h1>
-        <h2>Frontend Developer</h2>
+    <!-- Hero Section -->
+    <section id="about" class="hero">
+      <img id="proimg" 
+      src="/IMG/adarshmitr-profileimg.png" alt="Adarsh Kumar Patel" 
+      loading="lazy"
+        class="hero-img"/>
 
-    </header>
+        <div class="bio animate__animated animate__shakeX">
+     
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hi, I'm a frontend developer based in Haryana, India. I have a passion
+          for creating intuitive and engaging user experiences using HTML, CSS,
+          and JavaScript.
+        </p>
+      </div>
+    </section>
 
-    <main>
-        <section id="about">
-            <h2>About</h2>
-            <p>Hi, I'm Adarsh Kumar Patel, a frontend developer based in Haryana, India. I have a passion for creating
-                intuitive and engaging user experiences using HTML, CSS, and JavaScript.</p>
+    <!-- More about -->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
+          autem deleniti cupiditate molestias quis unde quae totam porro dicta
+          iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
+          nostrum dolor minus, libero delectus praesentium perferendis
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+          consequuntur labore? Ea totam voluptas amet!
+        </p>
+      </section>
+
+    <!-- Skills section -->
+
+      <section id="skills" class="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="./IMG/html5.svg"
+                alt="HTML5"
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="./IMG/css3.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="./IMG/javascript.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+            </div>
+    
+            <div class="second-set animate__animated animate__pulse">
+              <img
+                src="./IMG/react.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="./IMG/bootstrap.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="./IMG/git.svg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+            </div>
+          </div>
         </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-           
-               <p>HTML</p> <div class="skillContainer"><div class="html">90%</div></div>
-               <p>CSS</p> <div class="skillContainer"><div class="css">80%</div></div>
-               <p>Javascript</p> <div class="skillContainer"><div class="javascript">70%</div></div>
-               <p>React Js</p> <div class="skillContainer"><div class="react">65%</div></div>
         
-            
+    <!-- Projects section -->
+
+      <section id="projects" class="projects">
+        <h2  class="projects-title">My Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img
+                src="./IMG/notesApp.png"
+                alt="Notes App"
+                loading="lazy"
+                class="project-pic"
+              />
+              <h3 class="project-title">Notes App</h3>
+              <p class="project-details">
+                Aims at taking notes inside browser while surfing Internet. It is created in Vanilla Javascript. It provides functionality to add, delete, update and read notes.
+                All notes are saved in Local Storage.
+              </p>
+              <a href="https://adarshmitr.github.io/notesApp/" target="_blank" class="project-link">Live</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img
+                src="./IMG/toDoList.PNG"
+                alt="To Do List"
+                loading="lazy"
+                class="project-pic"
+              />
+              <h3 class="project-title">To Do List</h3>
+              <p class="project-details">
+               Provides as ease to jot down To-Do list items that might be easily forgotten. It is created in Vanilla Javascript. It has functionality to add as well as to delete list items.
+              </p>
+              <a href="https://adarshmitr.github.io/toDoList/" target="_blank" class="project-link">Live</a>
+            </div>
+
+            <div class="project-container project-card">
+                <img
+                src="./IMG/textUtils.PNG"
+                alt="TextUtils"
+                loading="lazy"
+                class="project-pic"
+              />
+              <h3 class="project-title">Text Utils</h3>
+              <p class="project-details">
+               It is a text utility aims at write text , delete, change Cases, and a lot other functionalities. It is created with React Js.
+              </p>
+              <a href="https://adarshmitr.github.io/TextUtils/" target="_blank" class="project-link">Live</a>
+            </div>
+
+        </div>
+        
+        
+
+        <br />
+        <p>Visit this space for my upcoming projects...</p>
+      </section>
+
+       <!-- Contact section -->
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+
+        <div class="contact-form-container">
+            <div class="contact-form">
+              <form action="https://formspree.io/f/xdovwvpd" method="POST">
+                <div class="form-control">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="sender-name"
+                    placeholder="Enter Your Name"
+                    class="input-field"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="sender-email"
+                    placeholder="Enter Your Email"
+                    class="input-field"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    cols="60"
+                    rows="10"
+                    placeholder="Enter Your Message"
+                    name="message"
+                    class="input-field"
+                    required
+                  ></textarea>
+                </div>
+                <input
+                  type="submit"
+                  value="Submit"
+                  id="submit-btn"
+                  class="submit-btn"
+                />
+              </form>
+            </div>
+          </div>
         </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <h3>Personal Blog</h3>
-            <p>A personal blog built using Gatsby and GraphQL, featuring my thoughts and insights on the latest frontend
-                technologies and trends.</p>
-            <h3>E-Commerce Platform</h3>
-            <p>An e-commerce platform developed using React and Redux, featuring a fully functional shopping cart and
-                payment gateway integration.</p>
-            <h3>Portfolio Website</h3>
-            <p>My own portfolio website, showcasing my work and experience as a frontend developer.</p>
 
-            <br>
-            <p> Visit this space for my upcoming projects...</p>
-           
-        </section>
+<!-- Social accounts - Fixed to the right -->
+<div class="socials">
+    <a href="https://twitter.com/AdarshMitr" target="_blank"
+      ><img
+        src="./IMG/twitter.gif"
+        alt="Twitter"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="https://www.instagram.com/adarshmitr/" target="_blank"
+      ><img
+        src="./IMG/instagram.gif"
+        alt="Instagram"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="https://www.linkedin.com/in/adarshmitr/" target="_blank"
+      ><img
+        src="./IMG/linkedin.gif"
+        alt="Linkedin"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="https://github.com/AdarshMitr" target="_blank"
+      ><img src="./IMG/github.gif" alt="Github" class="socicon"
+    /></a>
+  </div>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            
-           <h3>Love to hear from you. <br>
-            Get in touch with a healthy conversation.</h3> 
-           
-        <button><a href="mailto:adarshkumar019@gmail.com" >Drop an email</a></button>
+  <!-- Scroll to top -->
+  <i class="scroll-up" id="scroll-up"
+    ><img
+      src="./IMG/upward-arrow.gif"
+      class="socicon up-arrow"
+      alt=""
+  /></i>
 
-        </section>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-        <section id="footer">&copy; Adarsh Kumar Patel|2022-23</section>
-    </main>
+      <section id="footer">&copy; Adarsh Kumar Patel|2022-23</section>
+    
     <script src="script.js"></script>
-</body>
-
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
