@@ -222,6 +222,10 @@ nav ul li {
   width: 65%;
   height: 60%;
 }
+
+p{
+  text-align: center;
+}
 /* Projects section ends */
 
 /* Contacts section */
